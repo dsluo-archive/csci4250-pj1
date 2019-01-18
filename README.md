@@ -29,6 +29,7 @@ Your VMs run 64-bit Linux while binaries are 32-bit. Therefore, you need to inst
 
 In this project, each student has his/her own vulnerable binaries. You can get your binaries from github:  
 `$ git clone git@github.com:UGASecurityClass/proj1.git` if you have added your SSH key, or
+
 `$ git clone https://github.com/UGASecurityClass/proj1.git` then
 
 `$ cd proj1`
