@@ -10,10 +10,27 @@ In this project, you will be given a vulnerable `ls` program with a buffer-overf
 
 **\*\* Use your VM for this project \*\***
 
+
+## Environment setup
+
+* Github access (optional)
+
+You need to add your SSH key to your GitHub account to use SSH protocol over Git. Using SSH, you do not need to type in your username and password of your GitHub account every time.
+Follow this [URL](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add your SSH key.
+
+* VM setup
+
+Your VMs run 64-bit Linux while binaries are 32-bit. Therefore, you need to install 32-bit libraries to do the experiment. Also, you may need a debugger. Invoke the following command in your VM to configure the environment.
+
+`sudo apt-get install make gcc gcc-multilib build-essential`
+
+
 ## Part 0: Copy Target Binary
 
 In this project, each student has his/her own vulnerable binaries. You can get your binaries from github:  
-`$ git clone git@github.com:UGASecurityClass/proj1.git`  
+`$ git clone git@github.com:UGASecurityClass/proj1.git` if you have added your SSH key, or
+`$ git clone https://github.com/UGASecurityClass/proj1.git` then
+
 `$ cd proj1`
 
 Your target binaries are:  
