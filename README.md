@@ -58,7 +58,7 @@ As a result of the exploit you will get shell. However, you are still not a root
 
 **Target Binary: `proj1_dep_username`**  
 The effective countermeasure of the attack in part1 is DEP (Data Execution Prevention) which makes the stack non-executable. If DEP is enabled, executing code in the stack will no longer be possible and attack part 1 will fail with a segmentation fault.  
-In this part, you will execute a libc function. Specifically, you will execute `system()` function with an argument of `/bin/bash` to launch the shell.
+In this part, you will execute a libc function. Specifically, you will execute `system()` function with an argument of `/bin/sh` to launch the shell.
 
 ## Part 3: Automate the attack – (3 bonus points)
 
