@@ -2,6 +2,16 @@
 
 Due date: 11:59pm, 2/04/2019
 
+## **Important**
+
+If you are using external programs (such as python) to generate arguments, like,
+> ./prog `python -c  print("A"*20)`
+
+Before experimenting with part 2, you need to execute this command first.
+> `export IFS=`
+
+If you are using my skeloton script, you will not need to do this.
+
 ## **Description**
 
 In this project, you will gain first-hand experience on exploiting the buffer-overflow vulnerability. A buffer overflow occurs when a process tries to write data beyond the boundaries of pre-allocated fixed length buffers. Buffer overflows can be triggered by inputs that are designed to execute code or to alter the way the program operates. This may result in a breach of computer security. When the vulnerable program has a `setuid` flag owned by root, the attacker could potentially gain root privilege.
