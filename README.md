@@ -2,10 +2,10 @@
 
 Due date: 11:59pm, 2/04/2019
 
-## **PART 2 PROBLEM Important**
+## **PART 2 PROBLEM (Important)**
 
 If you are using external programs (such as python) to generate arguments, like,
-> ./prog `python -c  print("A"*20)`
+> ./prog ``` `python -c  print("A"*20)``` `
 
 Before experimenting with part 2, you need to execute this command first.
 > `export IFS=`
