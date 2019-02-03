@@ -1,5 +1,7 @@
 # CSCI 4250 Project 1
 
+David Luo
+
 ## Part 1
 
 Part 1 was pretty straightforward once I understood it. I first tried to cause a segfault by feeding a lot of `A`'s into the program as an argument. 
