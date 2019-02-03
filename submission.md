@@ -175,7 +175,7 @@ ubuntu
 $ 
 ```
 
-![console][screenshot1.png]
+![console](screenshot1.png)
 
 ## Part 2
 
@@ -208,4 +208,4 @@ Starting program: /home/ubuntu/notes/CSCI_4250/proj1/proj1_dep_Luo.David $(pytho
 (gdb) 
 ```
 
-![console2][screenshot2.png]
+![console2](screenshot2.png)
